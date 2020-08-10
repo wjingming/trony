@@ -2,5 +2,11 @@
 /.vscode
 /vendor
 *.log
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> dabc4502263c4d549e0a7050efd6620914dd5abc
+>>>>>>> f96eb65de7ebad94531a5a26e2a7d318c8f0cba7
 .env
 .DS_Store
