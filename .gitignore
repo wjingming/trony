@@ -2,5 +2,9 @@
 /.vscode
 /vendor
 *.log
+<<<<<<< HEAD
+=======
+thinkphp
+>>>>>>> dabc4502263c4d549e0a7050efd6620914dd5abc
 .env
 .DS_Store
