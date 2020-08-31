@@ -10,3 +10,4 @@
 // +----------------------------------------------------------------------
 
 Route::get('api','index/api/report');
+Route::get('index','index/index/index');
