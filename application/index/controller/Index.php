@@ -26,4 +26,9 @@ class Index extends base
   {
     return $this->fetch('defau');
   }
+
+  public function defau()
+  {
+    return $this->fetch('defau');
+  }
 }

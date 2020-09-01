@@ -12,3 +12,4 @@
 Route::get('/api','index/api/report');
 Route::rule('/login','index/login/login');
 Route::rule('/index','index/index/index');
+Route::rule('/defau','index/index/defau');
