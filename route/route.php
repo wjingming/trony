@@ -9,5 +9,6 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-Route::get('api','index/api/report');
-Route::get('index','index/index/index');
+Route::get('/api','index/api/report');
+Route::rule('/login','index/login/login');
+Route::rule('/index','index/index/index');

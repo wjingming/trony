@@ -1,17 +1,29 @@
 <?php
+
 namespace app\index\controller;
 
+use think\DB;
 use think\Controller;
+use app\index\controller\Base;
 
-class Index extends controller
+class Index extends base
 {
-    public function index()
-    {
-      return $this->fetch('index');
+  private $user;
+
+  protected function initialize()
+  {
+    $this->user = session('username');
+  }
+  public function index()
+  {
+    if (!$this->user) {
+      $this->redirect("/login");
     }
-    
-    public function defau()
-    {
-      return $this->fetch('defau');
-    }
+    return $this->fetch('index');
+  }
+
+  public function login()
+  {
+    return $this->fetch('defau');
+  }
 }
